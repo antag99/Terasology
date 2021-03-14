@@ -41,12 +41,6 @@ ext {
 sourceSets {
     // Adjust output path (changed with the Gradle 6 upgrade, this puts it back)
     main.java.outputDir = new File("$buildDir/classes")
-
-    main.java.srcDirs = [
-            "src/main/java/org/terasology",
-            // and because old "engine" was renamed to "engine.core":
-            "src/main/java/org/terasology/engine"
-    ];
 }
 
 // Customizations for the main compilation configuration
