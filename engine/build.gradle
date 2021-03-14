@@ -271,10 +271,6 @@ idea {
         testOutputDir = file('build/testClasses')
         downloadSources = true
 
-        settings {
-            packagePrefix["src/main/java/org/terasology"] = "org.terasology.engine";
-            packagePrefix["src/main/java/org/terasology/engine/"] = "org.terasology.engine.core";
-        }
     }
 }
 
